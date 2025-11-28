@@ -1,0 +1,23 @@
+Saanvi Rao
+Email: saanvi.rao@example.com
+Phone: +91 91234 56780
+
+SUMMARY
+Data Analyst with strong skills in Python, SQL, and exploratory data analysis. Experience working with dashboards and business insights.
+
+SKILLS
+Python, Pandas, NumPy, SQL, Power BI, Excel, Statistics, Data Cleaning, Data Visualization
+
+EXPERIENCE
+Data Analyst Intern — InsightWorks
+Aug 2023 – Jan 2024
+- Analyzed marketing datasets to identify customer churn drivers.
+- Built dashboards using Power BI used by 50+ stakeholders.
+- Wrote advanced SQL queries for data extraction.
+
+PROJECTS
+Sales Trend Analyzer — Python + SQL
+Covid Data Dashboard — Power BI
+
+EDUCATION
+B.Sc in Data Science, 2023

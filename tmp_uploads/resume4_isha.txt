@@ -1,0 +1,22 @@
+Isha Sharma
+Email: isha.sharma@example.com
+Phone: +91 90012 34567
+
+SUMMARY
+Frontend Developer with strong fundamentals in JavaScript and UI development. Passionate about pixel-perfect design and clean code.
+
+SKILLS
+HTML, CSS, JavaScript, React.js, Tailwind CSS, Figma, Git
+
+EXPERIENCE
+Frontend Intern — PixelWorks Studio
+Jan 2024 – June 2024
+- Developed landing pages and implemented responsive UI components.
+- Collaborated with designers to translate Figma designs into React components.
+
+PROJECTS
+Portfolio Website — React + Tailwind
+Task Manager App — JavaScript + LocalStorage
+
+EDUCATION
+BCA, 2024

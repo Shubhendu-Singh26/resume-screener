@@ -1,0 +1,23 @@
+Rohan Gupta
+Email: rohan.gupta@example.com
+Phone: +91 96543 21870
+
+SUMMARY
+Machine Learning Engineer with expertise in model training, data preprocessing, and ML deployment pipelines.
+
+SKILLS
+Python, TensorFlow, PyTorch, Scikit-learn, NLP, Computer Vision, Docker, FastAPI, AWS
+
+EXPERIENCE
+ML Engineer — VisionAI Labs
+Jan 2023 – Present
+- Built CNN-based image classifiers achieving 94% accuracy.
+- Developed NLP preprocessing pipelines using spaCy.
+- Deployed ML models via FastAPI + AWS Lambda.
+
+PROJECTS
+FaceMask Detector — CNN model deployed as an API
+SentimentSense — NLP sentiment analysis tool
+
+EDUCATION
+B.Tech in Artificial Intelligence, 2023

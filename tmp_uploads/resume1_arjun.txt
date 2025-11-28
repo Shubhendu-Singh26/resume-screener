@@ -1,0 +1,28 @@
+Arjun Mehta
+Email: arjun.mehta@example.com
+Phone: +91 98765 43210
+
+SUMMARY
+Full Stack Developer with 2+ years of experience building scalable web applications using JavaScript, Python, and cloud technologies.
+
+SKILLS
+JavaScript, React, Node.js, Express.js, Python, Django, MongoDB, PostgreSQL, Docker, Git
+
+EXPERIENCE
+Software Engineer — NexaTech Solutions
+June 2022 – Present
+- Built full-stack features using React and Node.js for an e-commerce dashboard.
+- Designed REST APIs and optimized database queries (PostgreSQL).
+- Automated deployments using Docker and GitHub Actions.
+
+Backend Intern — CodeFusion Labs
+Jan 2022 – May 2022
+- Developed Python-based microservices using Django REST Framework.
+- Improved API response time by 30%.
+
+PROJECTS
+SmartShop — A microservices e-commerce backend (Node.js + PostgreSQL)
+ChatFlow — Real-time chat system built using Django Channels
+
+EDUCATION
+B.Tech in Computer Science, 2022
