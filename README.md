@@ -141,7 +141,6 @@ Human Summary:
     Docker image for easy deployment
 
 🎯 Why Local Embeddings?
-
     Works offline
     No quota/billing limits
     Fast inference
