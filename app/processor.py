@@ -1,4 +1,3 @@
-# app/processor.py
 import os
 import re
 import math

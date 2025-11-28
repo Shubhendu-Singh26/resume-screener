@@ -1,6 +1,5 @@
-# app/main.py
 import sys, os
-# ensure project root is on path for imports
+
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
@@ -13,7 +12,7 @@ load_dotenv(find_dotenv())
 from app.processor import parse_resume_file, parse_job_description, score_candidate, generate_human_summary
 
 st.set_page_config(page_title="Resume Screening Agent", layout="wide", initial_sidebar_state="expanded")
-# custom CSS to reduce top margin and avoid page scrollbar
+
 st.markdown(
     """
     <style>
@@ -27,7 +26,6 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# Layout
 st.title("Resume Screening Agent — Demo")
 st.write("Upload a job description and multiple resumes (PDF/DOCX/TXT). The agent will parse, score and rank candidates.")
 
@@ -43,7 +41,6 @@ with st.sidebar:
     st.write("Settings")
     max_res = st.number_input("Max resumes to process (demo)", min_value=1, max_value=200, value=50, step=5)
 
-# Main input area inside a scrollable box
 st.header("1) Job Description (paste or upload)")
 col1, col2 = st.columns([2,1])
 with col1:
@@ -51,12 +48,10 @@ with col1:
 with col2:
     jd_file = st.file_uploader("Or upload a JD file (txt/pdf/docx)", type=['txt','pdf','docx'])
     if jd_file is not None:
-        # save tmp and extract text using processor utils
         tmpjd = os.path.join("tmp_uploads", f"jd_{jd_file.name}")
         os.makedirs("tmp_uploads", exist_ok=True)
         with open(tmpjd, "wb") as out:
             out.write(jd_file.getbuffer())
-        # parse file via parse_job_description expects raw text - use its internal embedding routine
         with open(tmpjd, "r", encoding="utf-8", errors="ignore") as f:
             try:
                 jd_text = f.read()
@@ -87,13 +82,13 @@ if run_btn:
                 out.write(f.getbuffer())
             parsed = parse_resume_file(tmp_path)
             scored = score_candidate(parsed, parsed_jd)
-            # attach parsed fields for UI
+
             scored["email"] = parsed.get("contact", {}).get("email")
             scored["phone"] = parsed.get("contact", {}).get("phone")
             scored["years_experience"] = parsed.get("years_experience", 0)
             scored["top_skills"] = ", ".join(parsed.get("skills", [])[:8])
             scored["filename"] = parsed.get("filename")
-            # optional human readable summary
+
             scored["summary"] = generate_human_summary(parsed, scored)
             results.append(scored)
             processed += 1
@@ -131,7 +126,6 @@ if run_btn:
         csv = df.to_csv(index=False).encode('utf-8')
         st.download_button("Download results as CSV", data=csv, file_name="screening_results.csv", mime="text/csv")
 
-        # Expandables for each candidate (highlights + rationale)
         st.header("Candidate details")
         for r in results_sorted:
             label = f"{r.get('name') or r.get('filename')} — Score: {r.get('score'):.3f}"

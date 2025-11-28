@@ -1,4 +1,3 @@
-# app/utils.py
 from pypdf import PdfReader
 import docx2txt
 import os
