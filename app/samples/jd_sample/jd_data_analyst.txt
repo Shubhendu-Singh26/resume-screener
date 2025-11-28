@@ -1,0 +1,17 @@
+Role: Data Analyst
+
+Responsibilities:
+- Clean and analyze large datasets
+- Build dashboards and reports
+- Support business decisions based on insights
+
+Required Skills:
+Python, Pandas, SQL, Excel, Data Visualization, Statistics
+
+Preferred Skills:
+Power BI, Tableau
+
+Experience Required:
+0–2 years
+
+Location: Bangalore

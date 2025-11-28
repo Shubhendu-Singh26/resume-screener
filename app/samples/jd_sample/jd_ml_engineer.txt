@@ -1,0 +1,17 @@
+Role: Machine Learning Engineer
+
+Responsibilities:
+- Train and evaluate ML models
+- Develop preprocessing and data pipelines
+- Deploy ML models to production
+
+Required Skills:
+Python, TensorFlow or PyTorch, Scikit-learn, NLP, Computer Vision, Docker
+
+Preferred Skills:
+FastAPI, AWS, MLOps tools
+
+Experience Required:
+1–2 years
+
+Location: Hybrid
