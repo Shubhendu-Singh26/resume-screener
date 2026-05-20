@@ -146,3 +146,6 @@ Human Summary:
     Fast inference
     Judges can run without external API keys
     Architecture still supports quick swapping to OpenAI embeddings
+
+URL to the Application:
+    https://resume-screener-singh.streamlit.app/
